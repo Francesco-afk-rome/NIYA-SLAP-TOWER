@@ -122,7 +122,7 @@ local Button = Tab:CreateButton({
 local Label = Tab:CreateLabel("When using Troll remember to shiftlock", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
 
 local Button = Tab:CreateButton({
-   Name = "Button Example",
+   Name = "Fly loader",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Francesco-afk-rome/NIYE-Slap-Tower-Script/refs/heads/main/main.lua"))()
    end,
