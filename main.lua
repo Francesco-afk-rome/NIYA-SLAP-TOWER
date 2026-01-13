@@ -118,3 +118,12 @@ local Button = Tab:CreateButton({
         hrp.CFrame = originalCFrame
     end,
 })
+
+local Label = Tab:CreateLabel("When using Troll remember to shiftlock", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+
+local Button = Tab:CreateButton({
+   Name = "Button Example",
+   Callback = function()
+   
+   end,
+})
